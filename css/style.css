@@ -1,12 +1,10 @@
 /* CSS Document */
 
-/* Float Elements 
----------------------------------*/
+/* Float Elements */
 .fl-lt {float:left;}
 .fl-rt {float:right;}
 
-/* Clear Floated Elements
----------------------------------*/
+/* Clear Floated Elements */
 .clear {
   clear: both;
   display: block;
@@ -73,8 +71,7 @@ a, a:hover, a:active{ outline:0px !important}
          url('../fonts/dosis-bold.svg#DosisBold') format('svg');
 }
 
-/* Primary Styles
----------------------------------*/
+/* Primary Styles */
 body {
 	background:#fff;
 	font-family: 'Lato', sans-serif;
@@ -113,8 +110,7 @@ p{
 	margin:0;
 }
 
-/* Header Styles
----------------------------------*/
+/* Header Styles */
 
 #header_outer{
 	background:#ffffff;
@@ -132,8 +128,7 @@ p{
 .res-nav_click{ display:none;}
 	
 
-/* Nav Styles
----------------------------------*/
+/* Nav Styles */
 	
 .nav{
 	float:right;
@@ -180,8 +175,7 @@ p{
 	color:#49b5e7;
     }
     
-/* Top_content
----------------------------------*/
+/* Top_content */
 
 .top_cont_outer{
 	background:#f9f9f9;
@@ -264,8 +258,7 @@ a.learn_more2:hover{
     }
     
 
-/* Services
----------------------------------*/
+/* Services */
 
 #service{
 	padding:83px 0px;
@@ -335,4 +328,122 @@ a.learn_more2:hover{
 	font-size:16px;
 	color:#888888;
 	margin:0px;
+    }
+    
+/* Latest Work */
+
+
+#work_outer{
+	background:#f9f9f9;
+	padding:70px 0px;
+	position:relative;
 	}
+	
+	
+.top_cont_latest{
+	background:url(../img/dashboard_pic.png) no-repeat right bottom;
+}
+	
+.work_pic{
+	position:absolute;
+	right:0;
+	top:25%;
+	width:50%;
+}
+
+.work_section { 
+	padding:110px 0 20px;
+}
+
+
+.service-list{
+	padding:0 0 0 0;
+	font-size:14px;
+	margin-bottom:40px;
+}
+.service-list-col1{
+	float:left;
+	width:60px;
+	text-align:center;
+}
+.service-list-col1 i{
+	display:;
+	color:#888;
+	font-family: 'linecons';
+	font-size: 19px;
+    font-style: normal;
+    line-height: 20px;
+}
+.service-list-col2{
+	overflow:hidden;	
+}
+.main-section.alabaster{
+	background:#fafafa;
+}
+
+.work_bottom{
+	padding:20px 0 0 60px;
+	}
+
+
+.work_bottom span{
+	font-size:18px;
+	color:#333333;
+	display:block;
+	margin:0 0 20px 0;
+	}
+	
+a.contact_btn{
+	background:#f56eab;
+	text-transform:uppercase;
+	display:block;
+	width:176px;
+	height:49px;
+	text-align:center;
+	line-height:49px;
+	font-size:16px;
+	color:#ffffff;
+	border-radius:3px;
+	font-family:'Dosis';
+	font-weight: 600;
+	transition:all 0.2s ease-in-out;
+	-moz-transition:all 0.2s ease-in-out;
+	-webkit-transition:all 0.2s ease-in-out;
+	}
+a.contact_btn:hover{
+	background:#222222;
+	}
+
+
+
+.validation {
+    color: red;
+    display:none;
+    margin: 0 0 20px;
+    font-weight:400;
+    font-size:13px;
+}
+
+#sendmessage {
+    color: green;
+    border:1px solid green;
+    display:none;
+    text-align:center;
+    padding:15px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+#errormessage {
+    color: red;
+    display:none;
+    border:1px solid red;
+    text-align:center;
+    padding:15px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+#sendmessage.show, #errormessage.show, .show {
+	display:block;
+}
