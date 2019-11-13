@@ -1484,3 +1484,33 @@ text-align: center;
     width: 35px;
     z-index: 100;
 }
+
+/* Portfolio Normal Expander */		
+	
+.project-description {
+    margin-top:40px;
+    margin-bottom:20px;
+    width:100%;
+    height:auto;
+}
+
+.small-border {
+    height:2px;
+    width:50px;
+    background-color:#ddd;
+    margin-bottom:15px;
+}
+
+.visit-project {
+    width:100%;
+    text-align:center;
+    border-top:1px solid #ddd;
+    margin-top:20px;
+    padding:55px 0 20px 0;
+}
+
+.project-description h5 {
+    color:#222222;
+    text-transform:uppercase;
+    margin-bottom:5px;
+}
