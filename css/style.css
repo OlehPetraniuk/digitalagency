@@ -1451,3 +1451,36 @@ text-align: center;
     left:0;
     padding-bottom:40px;
 }
+
+/* Portfolio Normal Expander Project Slider */	
+	
+	
+.project-image-slider .bx-wrapper .bx-next {
+    background: url("images/project_slider_right.png") no-repeat;
+    background-size:35px 65px;
+    opacity:0.3;
+    right:-90px;
+}
+
+.project-image-slider .bx-wrapper .bx-prev {
+    background: url("images/project_slider_left.png") no-repeat ;
+    background-size:35px 65px;
+    opacity:0.3;
+    left:-90px;
+}
+
+.project-image-slider .bx-wrapper .bx-next:hover, .project-image-slider .bx-wrapper .bx-prev:hover {
+    opacity:1;
+    background-position:0
+}
+
+.project-image-slider .bx-wrapper .bx-controls-direction a {
+    height: 65px;
+    margin-top: -33px;
+    outline: 0 none;
+    position: absolute;
+    text-indent: -9999px;
+    top: 50%;
+    width: 35px;
+    z-index: 100;
+}
